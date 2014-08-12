@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- definition of simple elements -->
+<xs:element name="categoryName" type="xs:string"/>
+<xs:element name="subcategoryName" type="xs:string"/>
+<xs:element name="name" type="xs:string"/>
+<xs:element name="producer" type="xs:string"/>
+<xs:element name="model" type="xs:string"/>
+<xs:element name="dateOfIssue" type="xs:date"/>
+<xs:element name="color" type="xs:string"/>
+<xs:element name="inStock" type="xs:string"/>
+<xs:element name="price" type="xs:decimal"/>
+
+<!-- definition of complex elements -->
+<xs:element name="shop">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="categories"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="categories">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="category"/>
+	</xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="category" maxOccurs="unbounded">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="categoryName"/>
+      <xs:element ref="subcategories"/>
+	</xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="subcategories">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="subcategory"/>
+	</xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="subcategory" maxOccurs="unbounded">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="subcategoryName"/>
+      <xs:element ref="product"/>
+	</xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+
+  <xs:element name="product" maxOccurs="unbounded">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="name"/>
+      <xs:element ref="producer"/>
+      <xs:element ref="model"/>
+      <xs:element ref="dateOfIssue"/>
+      <xs:element ref="color"/>
+      <xs:element ref="inStock"/>
+      <xs:element ref="price"/>
+	</xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

@@ -1,0 +1,20 @@
+<!ELEMENT shop (categories)>
+<!ELEMENT categories (category+)>
+<!ELEMENT category (categoryName,subcategories)>
+<!ELEMENT subcategories (subcategory+)>
+<!ELEMENT subcategory (subcategoryName,product+)>
+<!ELEMENT product (name,producer,model,dateOfIssue,color,inStock,price)>
+<!ELEMENT categoryName (#PCDATA)>
+<!ELEMENT subcategoryName (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT producer (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT dateOfIssue (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT inStock (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+
+
+
+
+

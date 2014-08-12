@@ -1,0 +1,113 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- <!DOCTYPE shop SYSTEM "products.dtd"> -->
+
+<shop 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="schema.xsd">
+=======
+<?xml version="1.0"?>
+<!DOCTYPE shop SYSTEM "products.dtd">
+<shop>
+>>>>>>> origin/master
+	<categories>
+		<category>
+			<categoryName>computers</categoryName>
+			<subcategories>
+				<subcategory>
+						<subcategoryName>desktops</subcategoryName>
+						<product>
+							<name>pentium</name>
+							<producer>IBM</producer>
+							<model>AA111</model>
+							<dateOfIssue>01-01-2015</dateOfIssue>
+							<color>grey</color>
+							<inStock>in stock</inStock>
+<<<<<<< HEAD
+							<price>100</price>
+=======
+							<price>100$</price>
+>>>>>>> origin/master
+						</product>
+						<product>
+							<name>PRODUCT2</name>
+							<producer>IBM</producer>
+							<model>AA111</model>
+							<dateOfIssue>01-01-2015</dateOfIssue>
+							<color>grey</color>
+							<inStock>in stock</inStock>
+<<<<<<< HEAD
+							<price>100</price>
+=======
+							<price>100$</price>
+>>>>>>> origin/master
+						</product>
+				</subcategory>
+					<subcategory>
+						<subcategoryName>laptops</subcategoryName>
+						<product>
+							<name>laptop</name>
+							<producer>HP</producer>
+							<model>AA111</model>
+							<dateOfIssue>01-01-2015</dateOfIssue>
+							<color>grey</color>
+							<inStock>in stock</inStock>
+<<<<<<< HEAD
+							<price>100</price>
+=======
+							<price>100$</price>
+>>>>>>> origin/master
+						</product>
+						<product>
+							<name>laptop33!</name>
+							<producer>IBM</producer>
+							<model>AA111</model>
+							<dateOfIssue>01-01-2015</dateOfIssue>
+							<color>grey</color>
+							<inStock>in stock</inStock>
+<<<<<<< HEAD
+							<price>100</price>
+=======
+							<price>100$</price>
+>>>>>>> origin/master
+						</product>
+					</subcategory>
+				</subcategories>
+		</category>
+		<category>
+			<categoryName>phones</categoryName>
+			<subcategories>
+				<subcategory>
+						<subcategoryName>smartphones</subcategoryName>
+						<product>
+							<name>pentium</name>
+							<producer>IBM</producer>
+							<model>AA111</model>
+							<dateOfIssue>01-01-2015</dateOfIssue>
+							<color>grey</color>
+							<inStock>in stock</inStock>
+<<<<<<< HEAD
+							<price>100</price>
+=======
+							<price>100$</price>
+>>>>>>> origin/master
+						</product>
+						<product>
+							<name>smartphones1!!!!</name>
+							<producer>IBM</producer>
+							<model>AA111</model>
+							<dateOfIssue>01-01-2015</dateOfIssue>
+							<color>grey</color>
+							<inStock>in stock</inStock>
+<<<<<<< HEAD
+							<price>100</price>
+=======
+							<price>100$</price>
+>>>>>>> origin/master
+						</product>
+				</subcategory>
+			</subcategories>
+		</category>
+	</categories>			
+</shop>
